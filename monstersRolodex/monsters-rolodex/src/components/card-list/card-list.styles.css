@@ -1,0 +1,9 @@
+.card-list {
+  width: 85 vw;
+  margin: 0 auto;
+  margin-left: 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 times 1fr = 4 equal "fractions"
+    prikazuje 4 kartice, da je 1fr 1fr 1fr onda bi bile 3 kartice u redu */
+  grid-gap: 20px; /* 20 pixel gap izmedju svake frakcije */
+}
